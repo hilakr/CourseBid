@@ -1,0 +1,66 @@
+﻿Build started 06/10/2015 23:33:24.
+     1>Project "C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\UiLib2\UiLib2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\CalLib" /I"C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\Experssion" /I"C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\lemon-1.3.1\build" /I"C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\lemon-1.3.1" /I"C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\DataStorage" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt EditFormulaDisplayState.cpp StudentBiddingState.cpp studentLogin.cpp
+         EditFormulaDisplayState.cpp
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\experssion\lexer.h(67): warning C4129: '-' : unrecognized character escape sequence
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\experssion\lexer.h(35): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\experssion\lexer.h(39): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\experssion\lexer.h(48): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\experssion\lexer.h(51): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\experssion\lexer.h(79): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\experssion\parser.h(124): warning C4715: 'Parser::getExpr' : not all control paths return a value
+         Compiling...
+         studentLogin.cpp
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\experssion\lexer.h(67): warning C4129: '-' : unrecognized character escape sequence
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\experssion\lexer.h(35): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\experssion\lexer.h(39): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\experssion\lexer.h(48): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\experssion\lexer.h(51): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\experssion\lexer.h(79): warning C4018: '<' : signed/unsigned mismatch
+         StudentBiddingState.cpp
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\experssion\lexer.h(67): warning C4129: '-' : unrecognized character escape sequence
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\experssion\lexer.h(35): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\experssion\lexer.h(39): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\experssion\lexer.h(48): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\experssion\lexer.h(51): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\experssion\lexer.h(79): warning C4018: '<' : signed/unsigned mismatch
+         Generating Code...
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\experssion\parser.h(124): warning C4715: 'Parser::getExpr' : not all control paths return a value
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\Debug\UiLib2.lib" /NOLOGO Debug\Calculate_Shibetz_Sec_State.obj
+         Debug\combState.obj
+         Debug\completedState.obj
+         Debug\CourseEditingState.obj
+         Debug\CourseListEditingState.obj
+         Debug\EditFormulaDisplayState.obj
+         Debug\EntryDisplayState.obj
+         Debug\ListDisplayState.obj
+         Debug\Login.obj
+         Debug\loginSec.obj
+         Debug\preState.obj
+         Debug\Shibetz_Courses.obj
+         Debug\Shibetz_Students.obj
+         Debug\StudentBiddingState.obj
+         Debug\StudentEditingState.obj
+         Debug\studentFinalCoursesState.obj
+         Debug\StudentListEditingState.obj
+         Debug\studentLogin.obj
+         Debug\studentLoginAfterRegDate.obj
+         Debug\SystemLogin.obj
+         Debug\SystemState.obj
+         Debug\TerminalEntryState.obj
+         Debug\TerminalState.obj
+         Debug\UiLibraryContext.obj
+     1>combState.obj : warning LNK4006: "public: __thiscall combState::combState(class UiLibraryContext *,class seasonConfig,int)" (??0combState@@QAE@PAVUiLibraryContext@@VseasonConfig@@H@Z) already defined in completedState.obj; second definition ignored
+     1>combState.obj : warning LNK4006: "public: void __thiscall combState::add(int,int)" (?add@combState@@QAEXHH@Z) already defined in completedState.obj; second definition ignored
+     1>combState.obj : warning LNK4006: "public: virtual void __thiscall combState::display(void)" (?display@combState@@UAEXXZ) already defined in completedState.obj; second definition ignored
+     1>combState.obj : warning LNK4006: "public: virtual bool __thiscall combState::handleInput(int)" (?handleInput@combState@@UAE_NH@Z) already defined in completedState.obj; second definition ignored
+     1>combState.obj : warning LNK4006: "public: void __thiscall combState::remove(int,int)" (?remove@combState@@QAEXHH@Z) already defined in completedState.obj; second definition ignored
+         UiLib2.vcxproj -> C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\Debug\UiLib2.lib
+     1>Done Building Project "C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\UiLib2\UiLib2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.42

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1249A752-E8AA-460D-B85C-5CB0B48A5768}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>UiLib2</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\lemon-1.3.1;C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\lemon-1.3.1\build;C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\Experssion;C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\Shibetz;C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\DataStorage;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\lemon-1.3.1\build\lemon\Debug;C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\GnuWin32\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\lemon-1.3.1;C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\lemon-1.3.1\build;C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\Experssion;C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\Shibetz;C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\DataStorage;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\lemon-1.3.1\build\lemon\Debug;C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\GnuWin32\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\CalLib;C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\Experssion;C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\lemon-1.3.1\build;C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\lemon-1.3.1;C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\DataStorage;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\CalLib;C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\Experssion;C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\lemon-1.3.1\build;C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\lemon-1.3.1;C:\Users\User\Documents\Visual Studio 2013\Projects\CourseBid\DataStorage;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Calculate_Shibetz_Sec_State.cpp" />
+    <ClCompile Include="combState.cpp" />
+    <ClCompile Include="completedState.cpp" />
+    <ClCompile Include="CourseEditingState.cpp" />
+    <ClCompile Include="CourseListEditingState.cpp" />
+    <ClCompile Include="EditFormulaDisplayState.cpp" />
+    <ClCompile Include="EntryDisplayState.cpp" />
+    <ClCompile Include="ListDisplayState.cpp" />
+    <ClCompile Include="Login.cpp" />
+    <ClCompile Include="loginSec.cpp" />
+    <ClCompile Include="preState.cpp" />
+    <ClCompile Include="Shibetz_Courses.cpp" />
+    <ClCompile Include="Shibetz_Students.cpp" />
+    <ClCompile Include="StudentBiddingState.cpp" />
+    <ClCompile Include="StudentEditingState.cpp" />
+    <ClCompile Include="studentFinalCoursesState.cpp" />
+    <ClCompile Include="StudentListEditingState.cpp" />
+    <ClCompile Include="studentLogin.cpp" />
+    <ClCompile Include="studentLoginAfterRegDate.cpp" />
+    <ClCompile Include="SystemLogin.cpp" />
+    <ClCompile Include="SystemState.cpp" />
+    <ClCompile Include="TerminalEntryState.cpp" />
+    <ClCompile Include="TerminalState.cpp" />
+    <ClCompile Include="UiLibraryContext.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Calculate_Shibetz_Sec_State.h" />
+    <ClInclude Include="completetdState.h" />
+    <ClInclude Include="CourseEditingState.h" />
+    <ClInclude Include="CourseListEditingState.h" />
+    <ClInclude Include="EditFormulaDisplayState.h" />
+    <ClInclude Include="EntryDisplayState.h" />
+    <ClInclude Include="ListDisplayState.h" />
+    <ClInclude Include="Login.h" />
+    <ClInclude Include="loginSec.h" />
+    <ClInclude Include="preState.h" />
+    <ClInclude Include="Shibetz_Courses.h" />
+    <ClInclude Include="Shibetz_Students.h" />
+    <ClInclude Include="StudentBiddingState.h" />
+    <ClInclude Include="StudentEditingState.h" />
+    <ClInclude Include="studentFinalCoursesState.h" />
+    <ClInclude Include="StudentListEditingState.h" />
+    <ClInclude Include="studentLogin.h" />
+    <ClInclude Include="studentLoginAfterRegDate.h" />
+    <ClInclude Include="SystemLogin.h" />
+    <ClInclude Include="SystemState.h" />
+    <ClInclude Include="TerminalEntryState.h" />
+    <ClInclude Include="TerminalState.h" />
+    <ClInclude Include="UiLibraryContext.h" />
+    <ClInclude Include="UiLibraryState.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CalLib\CalLib.vcxproj">
+      <Project>{688287fe-11e5-498d-833c-c568e61388fd}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\DataStorage\DataStorage.vcxproj">
+      <Project>{586220ed-3783-473c-8d09-834206dbc29d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Experssion\Experssion.vcxproj">
+      <Project>{e1c11482-9d5a-4152-87a3-258fa2bb67cf}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,112 @@
+﻿Build started 06/10/2015 21:01:01.
+     1>Project "C:\Users\User\documents\visual studio 2013\Projects\CourseBid\systemTest\systemTest.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt systemTest.cpp
+         systemTest.cpp
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\lemon-1.3.1\lemon\math.h(70): error C2039: 'floor' : is not a member of 'std'
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\lemon-1.3.1\lemon\math.h(70): error C2039: 'ceil' : is not a member of 'std'
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\lemon-1.3.1\lemon\math.h(70): error C3861: 'floor': identifier not found
+     1>c:\users\user\documents\visual studio 2013\projects\coursebid\lemon-1.3.1\lemon\math.h(70): error C3861: 'ceil': identifier not found
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtgmath.h(126): error C2039: 'fmaf' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtgmath.h(126): error C3861: 'fmaf': identifier not found
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtgmath.h(131): error C2039: 'fma' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtgmath.h(131): error C3861: 'fma': identifier not found
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtgmath.h(136): error C2039: 'fmal' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtgmath.h(136): error C3861: 'fmal': identifier not found
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtgmath.h(154): error C2039: 'remquof' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtgmath.h(154): error C3861: 'remquof': identifier not found
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtgmath.h(159): error C2039: 'remquo' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtgmath.h(159): error C3861: 'remquo': identifier not found
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtgmath.h(164): error C2039: 'remquol' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\xtgmath.h(164): error C3861: 'remquol': identifier not found
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(23): error C2039: 'abs' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(23): error C2873: 'abs' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(26): error C2039: 'fabs' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(26): error C2873: 'fabs' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(28): error C2039: 'modf' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(28): error C2873: 'modf' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(32): error C2039: 'acosf' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(32): error C2873: 'acosf' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(32): error C2039: 'asinf' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(32): error C2873: 'asinf' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(33): error C2039: 'atanf' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(33): error C2873: 'atanf' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(33): error C2039: 'atan2f' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(33): error C2873: 'atan2f' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(33): error C2039: 'ceilf' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(33): error C2873: 'ceilf' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(34): error C2039: 'cosf' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(34): error C2873: 'cosf' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(34): error C2039: 'coshf' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(34): error C2873: 'coshf' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(34): error C2039: 'expf' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(34): error C2873: 'expf' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(35): error C2039: 'fabsf' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(35): error C2873: 'fabsf' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(35): error C2039: 'floorf' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(35): error C2873: 'floorf' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(35): error C2039: 'fmodf' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(35): error C2873: 'fmodf' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(36): error C2039: 'frexpf' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(36): error C2873: 'frexpf' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(36): error C2039: 'ldexpf' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(36): error C2873: 'ldexpf' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(36): error C2039: 'logf' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(36): error C2873: 'logf' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(37): error C2039: 'log10f' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(37): error C2873: 'log10f' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(37): error C2039: 'modff' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(37): error C2873: 'modff' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(37): error C2039: 'powf' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(37): error C2873: 'powf' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(38): error C2039: 'sinf' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(38): error C2873: 'sinf' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(38): error C2039: 'sinhf' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(38): error C2873: 'sinhf' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(38): error C2039: 'sqrtf' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(38): error C2873: 'sqrtf' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(39): error C2039: 'tanf' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(39): error C2873: 'tanf' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(39): error C2039: 'tanhf' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(39): error C2873: 'tanhf' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(41): error C2039: 'acosl' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(41): error C2873: 'acosl' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(41): error C2039: 'asinl' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(41): error C2873: 'asinl' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(42): error C2039: 'atanl' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(42): error C2873: 'atanl' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(42): error C2039: 'atan2l' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(42): error C2873: 'atan2l' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(42): error C2039: 'ceill' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(42): error C2873: 'ceill' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(43): error C2039: 'cosl' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(43): error C2873: 'cosl' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(43): error C2039: 'coshl' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(43): error C2873: 'coshl' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(43): error C2039: 'expl' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(43): error C2873: 'expl' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(44): error C2039: 'fabsl' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(44): error C2873: 'fabsl' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(44): error C2039: 'floorl' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(44): error C2873: 'floorl' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(44): error C2039: 'fmodl' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(44): error C2873: 'fmodl' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(45): error C2039: 'frexpl' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(45): error C2873: 'frexpl' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(45): error C2039: 'ldexpl' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(45): error C2873: 'ldexpl' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(45): error C2039: 'logl' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(45): error C2873: 'logl' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(46): error C2039: 'log10l' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(46): error C2873: 'log10l' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(46): error C2039: 'modfl' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(46): error C2873: 'modfl' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(46): error C2039: 'powl' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(46): error C2873: 'powl' : symbol cannot be used in a using-declaration
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(47): error C2039: 'sinl' : is not a member of '`global namespace''
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\cmath(47): fatal error C1003: error count exceeds 100; stopping compilation
+     1>Done Building Project "C:\Users\User\documents\visual studio 2013\Projects\CourseBid\systemTest\systemTest.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.20

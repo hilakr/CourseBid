@@ -1,0 +1,20 @@
+﻿Build started 30-Sep-15 3:00:21 PM.
+     1>Project "D:\Omer_D\שיטות\CourseBid\CourseBid\XExpression\XExpression.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Programs_D\Visual Studio 2013 Update 5\VC\bin\CL.exe /c /I"D:\Programs_D\Visual Studio 2013 Update 5\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\XExpression.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /FC /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\Programs_D\Visual Studio 2013 Update 5\VC\bin\CL.exe /c /I"D:\Programs_D\Visual Studio 2013 Update 5\VC\UnitTest\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\XExpression.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /FC /errorReport:prompt XLexer.cpp
+         XLexer.cpp
+     1>d:\omer_d\שיטות\coursebid\coursebid\experssion\lexer.h(69): warning C4129: '-' : unrecognized character escape sequence
+     1>d:\omer_d\שיטות\coursebid\coursebid\experssion\lexer.h(36): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\omer_d\שיטות\coursebid\coursebid\experssion\lexer.h(40): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\omer_d\שיטות\coursebid\coursebid\experssion\lexer.h(49): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\omer_d\שיטות\coursebid\coursebid\experssion\lexer.h(52): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\omer_d\שיטות\coursebid\coursebid\experssion\lexer.h(81): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\omer_d\שיטות\coursebid\coursebid\xexpression\xlexer.cpp(7): error C2011: 'Lexer' : 'class' type redefinition
+                 d:\omer_d\שיטות\coursebid\coursebid\experssion\lexer.h(16) : see declaration of 'Lexer'
+     1>Done Building Project "D:\Omer_D\שיטות\CourseBid\CourseBid\XExpression\XExpression.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.63
